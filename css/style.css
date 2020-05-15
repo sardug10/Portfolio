@@ -383,27 +383,10 @@ i:hover {
   display: inline-flex;
   margin-left: 100px;
   text-align: center;
-  -webkit-animation: imganime 1s ease-in-out infinite alternate;
-          animation: imganime 1s ease-in-out infinite alternate;
+  
 }
 
-@-webkit-keyframes imganime {
-  0% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 
-@keyframes imganime {
-  0% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 .webdev-list-icon {
   margin-top: 20px;
   display: inline-flex;
