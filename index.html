@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarthak</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/png" href="images/sarthakIcon.png" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+      integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <!--<nav class="navbar">
+        <h3>this is the navbar</h3>
+      </nav>-->
+      <div class="logo-box">
+        <img src="images/sarthakIcon.png" alt="Logo" class="logo" />
+      </div>
+      <div class="header-text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary-main">sarthak duggal</span>
+          <span class="heading-primary-sub"
+            >web developer & UI|UX designer</span
+          >
+        </h1>
+
+        <a href="#about" class="btn header-link">About</a>
+        <a href="#skills" class="btn header-link">skills</a>
+        <a href="#projects" class="btn header-link">projects</a>
+      </div>
+    </header>
+    <section class="about" id="about">
+      <div class="about-heading">
+        <span class="about-heading-primary">about</span>
+        <span class="about-heading-sub">me</span>
+      </div>
+      <div class="about-content">
+        <span class="about-content-quote">
+          "create & learn or learn & create, doesn't matters, if you are doing
+          anyone of them."
+        </span>
+        <p class="about-content-main">
+          I can make attractive looking websites from scratch i.e, from
+          designing the fully working prototype of that website in Figma with
+          the latest trends in design fields and make that design come to real
+          life by applying the latest web technologies like HTML5, CSS3 &
+          Advanced Javascript with Highly motivated and eager to learn new
+          things. Strong motivational and leadership skills. Ability to produce
+          best result in pressure situation. Excellent communication skills in
+          written and verbal both. Ability to work as individual as well as in
+          group.
+        </p>
+      </div>
+      <div class="about-profiles">
+        <ul class="about-profiles-list">
+          <li>
+            <a href="https://www.behance.net/sarthakduggal"
+              ><i class="fa fa-behance" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/sarthak-duggal-b8686a19b/"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/sardug10"
+              ><i class="fa fa-github" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100007708668120"
+              ><i class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <h1 class="skills-head">skills</h1>
+      <div id="skill-chart">
+        <canvas id="skill-set"></canvas>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="projects-head">Projects</h2>
+      <span class="projects-hero">creative</span>
+      <div class="projects-web">
+        <h2 class="web-head">web development</h2>
+        <div>
+          <ul class="webdev-list">
+            <li>
+              <img src="images/D & B SITE.jpg" alt="d&b site" />
+            </li>
+            <li>
+              <img src="images/TODO.jpg" alt="todo site" />
+            </li>
+            <li>
+              <img src="images/PIG GAME.png" alt="pig game" />
+            </li>
+          </ul>
+          <ul class="webdev-list-icon">
+            <li>
+              <a href="https://sardug10.github.io/Design/"
+                ><i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="https://github.com/sardug10/Design"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://sardug10.github.io/tOdO/"
+                ><i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="https://github.com/sardug10/tOdO"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://sardug10.github.io/Pig-game/"
+                ><i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="https://github.com/sardug10/Pig-game"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="projects-ui">
+        <h2 class="ui-head">UI designs</h2>
+        <div class="ui-list">
+          <div class="ui-project-1">
+            animals app design
+            <a
+              href="https://www.behance.net/gallery/95043815/Animals-App-Design"
+              ><i class="fa fa-behance"></i
+            ></a>
+          </div>
+          <div class="ui-project-2">
+            Drinks app design
+            <a
+              href="https://www.behance.net/gallery/95093261/Drinks-Mocktails-App"
+              ><i class="fa fa-behance"></i
+            ></a>
+          </div>
+          <div class="ui-project-3">
+            tours app design
+            <a
+              href="https://www.behance.net/gallery/95195111/Travel-Booking-App"
+              ><i class="fa fa-behance"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <a
+        href="mailto:duggal.sarthak12@gmail.com"
+        class="btn header-link btn-contact"
+        >contact me</a
+      >
+      <div class="footer">
+        <h3>Copyright © 2020 built by Sarthak Duggal</h3>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
