@@ -298,7 +298,8 @@ i:hover {
 }
 
 .skills {
-  background: linear-gradient(to bottom right, #ff6b6b, #ffe66d);
+  background: linear-gradient(to bottom right, rgb(10, 34, 37),
+    rgb(39, 98, 94));
   height: 130vh;
   background-size: cover;
   background-position: top;
